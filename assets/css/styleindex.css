@@ -1,0 +1,76 @@
+.name {
+    background-color: teal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: teal;
+    width: 250px;
+    color: white;
+    padding: 29px 27px 29px 27px;
+    display: inline;
+    margin-left: 20%;
+    position: relative; top: -5px;
+    left: 5px;
+    font-size: 30px;
+}
+
+nav {
+    margin-left: 1200px;
+    position: relative; top: -28px; left: -50px;
+    font-size: 19px;
+    word-spacing: 25px;
+    display: inline;
+}
+
+section {
+    background-color: white;
+    width: 960px;
+    margin-left: 350px;
+    margin-right: 90px;
+    margin-top: 30px;
+    padding: 28px 36px 28px 30px;
+}
+header {
+    background-color: white;
+    margin: -10px;
+    padding: 40px 0px 0px 0px;
+}
+
+img {
+    float: left;
+    padding: 10px 20px 10px 0px;
+}
+
+.about {
+    color: teal;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+p {
+    word-spacing: 10px;
+    line-height: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.foot1 {
+    border-top: 8px solid teal;
+    position: fixed;
+    left: 0;
+    bottom: 50px;
+    width: 100%;
+    background-color: teal;
+    color: teal
+}
+
+.foot2 {
+   border-top: 50px solid grey;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: grey;
+   color: grey;
+}
+
+body {
+    overflow: hidden;
+}

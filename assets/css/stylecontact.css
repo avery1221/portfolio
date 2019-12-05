@@ -1,0 +1,84 @@
+ .rame {
+    background-color: teal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: teal;
+    width: 200px;
+    color: white;
+    padding: 29px 27px 21px 27px;
+    display: inline;
+    margin-left: 20%;
+    position: relative; top: 1px;
+    left: 90px;
+    font-size: 30px;
+}
+
+nav {
+    margin-left: 1200px;
+    position: relative; top: -24px; left: -230px;
+    font-size: 16px;
+    word-spacing: 25px;
+    display: inline;
+}
+
+h2 {
+    color: teal;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+section {
+    background-color: white;
+    width: 700px;
+    margin-left: 400px;
+    margin-right: 90px;
+    margin-top: 30px;
+    padding: 28px 36px 28px 30px;
+    line-height: 23px;
+}
+
+input {
+    width: 100%;
+    padding: 4px;
+}
+
+input[name=messageBox] {
+    padding: 4px;
+    height: 150px;
+}
+
+header {
+    background-color: white;
+    margin: -10px;
+    padding: 25px 0px 0px 0px;
+}
+
+button {
+    background-color: teal;
+    border: teal;
+    padding: 10px 20px 10px 20px;
+    color: white;
+}
+
+.foot1 {
+    border-top: 8px solid teal;
+    position: fixed;
+    left: 0;
+    bottom: 25px;
+    width: 100%;
+    background-color: teal;
+    color: teal
+}
+
+.foot2 {
+   border-top: 25px solid grey;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: grey;
+   color: grey;
+}
+
+body {
+    overflow: hidden;
+}

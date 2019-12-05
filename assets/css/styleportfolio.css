@@ -1,0 +1,136 @@
+.name {
+    background-color: teal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: teal;
+    width: 200px;
+    color: white;
+    padding: 29px 27px 21px 27px;
+    display: inline;
+    margin-left: 20%;
+    position: relative; top: 1px;
+    left: 132px;
+    font-size: 30px;
+}
+
+nav {
+    margin-left: 1200px;
+    position: relative; top: -24px; left: -290px;
+    font-size: 16px;
+    word-spacing: 25px;
+    display: inline;
+}
+
+h2 {
+    color: teal;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+section {
+    background-color: white;
+    width: 600px;
+    margin-left: 450px;
+    margin-right: 90px;
+    margin-top: 30px;
+    padding: 28px 36px 28px 30px;
+    line-height: 23px;
+}
+
+header {
+    background-color: white;
+    margin: -10px;
+    padding: 25px 0px 0px 0px;
+}
+
+.foot1 {
+    border-top: 8px solid teal;
+    position: fixed;
+    left: 0;
+    bottom: 25px;
+    width: 100%;
+    background-color: teal;
+    color: teal
+}
+
+.foot2 {
+   border-top: 25px solid grey;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: grey;
+   color: grey;
+}
+
+img {
+    height: 180px;
+    width: 180px;
+}
+
+.container1 {
+    position: relative;
+    float: right;
+    left: -160px;
+  }
+  
+  .text-block1 {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    left: 1px;
+    width: 179px;
+    text-align: center;
+    background-color: teal;
+  }
+
+  .container2 {
+    position: relative;
+  }
+
+  .container3 {
+    position: relative;
+    float: right;
+    left: -160px;
+  }
+
+  .container4 {
+    position: relative;
+  }
+
+  .text-block2 {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    left: 1px;
+    width: 179px;
+    text-align: center;
+    background-color: teal;
+  }
+
+  .text-block3 {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    left: 1px;
+    width: 179px;
+    text-align: center;
+    background-color: teal;
+  }
+
+  .text-block4 {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    left: 1px;
+    width: 179px;
+    text-align: center;
+    background-color: teal;
+  }
