@@ -74,3 +74,8 @@ p {
 body {
     overflow: hidden;
 }
+
+.github {
+    height: 10%;
+    width: 10%;
+}
