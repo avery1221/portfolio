@@ -1,69 +1,154 @@
 .name {
     background-color: teal;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    border: teal;
-    width: 200px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
     color: white;
-    padding: 29px 27px 21px 27px;
-    display: inline;
-    margin-left: 20%;
-    position: relative; top: 1px;
-    left: 132px;
-    font-size: 30px;
+    padding: 40px 40px 26px 40px;
+    display: inline;  
+    margin-left: 585px;
+    font-size: 26px;
+    border: teal;
 }
 
 nav {
-    margin-left: 1200px;
-    position: relative; top: -24px; left: -290px;
-    font-size: 16px;
-    word-spacing: 25px;
+    margin-left: 1110px;
     display: inline;
-}
-
-h2 {
-    color: teal;
-    font-size: 30px;
-    font-weight: bold;
+    position: relative; top: -25px;
+    word-spacing: 25px;
+    font-family:'Georgia', Times, 'Times New Roman', serif;
+    font-size: 18px;
 }
 
 section {
     background-color: white;
-    width: 600px;
-    margin-left: 450px;
-    margin-right: 90px;
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 30px;
     padding: 28px 36px 28px 30px;
     line-height: 23px;
 }
 
+h1 {
+    color: teal;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 28px;
+    font-weight: bold;
+}
+
 header {
     background-color: white;
     margin: -10px;
-    padding: 25px 0px 0px 0px;
+    padding: 40px 0px 0px 0px;
+    position: relative;
+    width: 2030px;
+    z-index: 0.5;
 }
 
-.foot1 {
-    border-top: 8px solid teal;
+.smallfoot {
+    border-top: 8px solid #4aaaa5;
     position: fixed;
-    left: 0;
-    bottom: 25px;
+    left: 0px;
+    bottom: 26px;
     width: 100%;
-    background-color: teal;
-    color: teal
+    z-index: 0.5;
 }
 
-.foot2 {
-   border-top: 25px solid grey;
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: grey;
-   color: grey;
+.bigfoot {
+    border-top: 64px solid #666666;
+    position: fixed;
+    left: 0px;
+    bottom: -38px;
+    width: 100%;
+}
+
+body {
+    width: inherit;
 }
 
 img {
-    height: 180px;
-    width: 180px;
+    padding: 15px;
+    height: 250px;
+    width: 150px;
 }
 
+nav:hover {
+    background-color: red;
+}
+
+nav:focus {
+    border: solid red
+}
+
+nav:active {
+    color: fuchsia;
+}
+
+nav:visited {
+    color: grey;
+}
+
+/* Container holding the image and the text */
+.container1 {
+    position: relative;
+    float: right;
+    left: -315px;
+  }
+  
+  /* Bottom right text */
+  .text-block1 {
+    position: absolute;
+    bottom: 21px;
+    background-color: teal;
+    color: white;
+    padding-left: 39px;
+    padding-right: 33px;
+    left: 15px;
+  }
+
+  .container2 {
+    position: relative;
+
+  }
+  
+  /* Bottom right text */
+  .text-block2 {
+    position: absolute;
+    bottom: 21px;
+    background-color: teal;
+    color: white;
+    padding-left: 39px;
+    padding-right: 35px;
+    left: 15px;
+  }
+
+  .container3 {
+    position: relative;
+    float: right;
+    left: -315px;
+  }
+  
+  /* Bottom right text */
+  .text-block3 {
+    position: absolute;
+    bottom: 33px;
+    background-color: teal;
+    color: white;
+    padding-left: 39px;
+    padding-right: 40px;
+    left: 15px;
+  }
+
+  .container4 {
+    position: relative;
+  }
+  
+  /* Bottom right text */
+  .text-block4 {
+    position: absolute;
+    bottom: 22px;
+    background-color: teal;
+    color: white;
+    padding-left: 39px;
+    padding-right: 32px;
+    left: 15px;
+  }
